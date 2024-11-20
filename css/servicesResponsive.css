@@ -1,0 +1,518 @@
+@media screen and (max-width: 1004px) {
+  #navLinks li {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 929px) {
+  #navLinks li {
+    margin-left: 8px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  #navLinks {
+    visibility: hidden;
+  }
+  .hamburger {
+    display: block;
+    margin-left: 400px;
+  }
+  .line {
+    color: #fff;
+    display: block;
+  }
+  .sidebar {
+    left: -125%;
+  }
+  .sidebar.show {
+    left: 0;
+  }
+  .close-btn {
+    color: #fff;
+    display: block;
+  }
+  .close-btn.show {
+    right: 0;
+  }
+}
+
+/* DIMENSION || IPAD PRO */
+@media screen and (max-width: 1024px) {
+  body {
+    scroll-behavior: smooth;
+  }
+  .flipBox {
+    display: block;
+  }
+  .flip-box {
+    padding-bottom: 3%;
+    margin-left: 20%;
+    width: 600px;
+    height: 400px;
+  }
+  .flipBox2 {
+    display: block;
+  }
+  .flip-box-back h2 {
+    margin-top: 90px;
+  }
+  .button {
+    margin-top: 60px;
+    flex-basis: 100%;
+    padding: 7px;
+    width: 35%;
+  }
+  .elementor-icon {
+    margin-top: 120px;
+  }
+  .service-content {
+    font-size: 20px;
+  }
+  .btnServices {
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+/* DIMENSION  ||  SURFACE PRO 7 */
+@media screen and (max-width: 912px) {
+  body {
+    scroll-behavior: smooth;
+  }
+  #navLinks {
+    display: none;
+  }
+  .flip-box {
+    padding-bottom: 3%;
+    margin-left: 17%;
+  }
+  .flip-box-back h2 {
+    margin-top: 16%;
+  }
+  .service-content {
+    font-size: 20px;
+  }
+}
+
+/* DIMENSION  ||  ASUS ZENBOOK FOLD  */
+@media screen and (max-width: 853px) {
+  body {
+    scroll-behavior: smooth;
+  }
+  #navLinks {
+    display: none;
+  }
+  .flip-box {
+    padding-bottom: 3%;
+    margin-left: 15%;
+    /* width: 300px;
+    height: 250px; */
+  }
+  .flip-box-back h2 {
+    margin-top: 16%;
+  }
+  .service-content {
+    font-size: 16px;
+  }
+}
+
+/* DIMENSION || IPAD AIR */
+@media screen and (max-width: 820px) {
+  body {
+    scroll-behavior: smooth;
+  }
+  .logo {
+    width: 200px;
+    height: 80px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  #navLinks {
+    display: none;
+  }
+  .flipBox {
+    display: block;
+  }
+  .flip-box {
+    padding-bottom: 3%;
+    margin-left: 16%;
+    width: 550px;
+    height: 350px;
+  }
+  .flipBox2 {
+    display: block;
+  }
+  .button {
+    margin-top: 20px;
+    flex-basis: 100%;
+    padding: 7px;
+    width: 35%;
+  }
+  .elementor-icon {
+    margin-top: 90px;
+  }
+  .service-content {
+    font-size: 20px;
+  }
+  .btnServices {
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+/* DIMENSION || IPAD MINI */
+@media screen and (max-width: 768px) {
+  body {
+    scroll-behavior: smooth;
+  }
+  .logo {
+    width: 200px;
+    height: 80px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  #navLinks {
+    display: none;
+  }
+  .flipBox {
+    display: block;
+  }
+  .flip-box {
+    padding-bottom: 3%;
+    margin-left: 17.5%;
+    width: 500px;
+    height: 300px;
+  }
+  .flipBox2 {
+    display: block;
+  }
+  .flip-box-back h2 {
+    margin-top: 50px;
+  }
+  .button {
+    margin-top: 20px;
+    flex-basis: 100%;
+    padding: 7px;
+    width: 35%;
+  }
+  .elementor-icon {
+    margin-top: 70px;
+  }
+  .service-content {
+    font-size: 20px;
+  }
+  .btnServices {
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+/* DIMENSION || SURFACE DUO */
+@media screen and (max-width: 540px) {
+  body {
+    scroll-behavior: smooth;
+  }
+  .logo {
+    width: 150px;
+    height: 50px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .Iata {
+    width: 150px;
+    height: 50px;
+  }
+  .divider-text {
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  .flipBox {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .flip-box {
+    padding-bottom: 3%;
+    margin-left: 14.5%;
+    width: 380px;
+    height: 290px;
+  }
+  .flipBox2 {
+    display: block;
+  }
+  .service-content {
+    font-size: 16px;
+  }
+}
+
+/* DIMENSION  || IPHONE 14 PRO MAX  */
+@media screen and (max-width: 430px) {
+  body {
+    scroll-behavior: smooth;
+  }
+  .logo {
+    width: 150px;
+    height: 50px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  #navLinks {
+    display: none;
+  }
+  .Iata {
+    width: 150px;
+    height: 50px;
+  }
+  .divider-text {
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  .flipBox {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .flip-box {
+    padding-bottom: 3%;
+    margin-left: 13%;
+    width: 320px;
+    height: 260px;
+  }
+  .flipBox2 {
+    display: block;
+  }
+  .elementor-icon {
+    margin-top: 50px;
+  }
+  .button {
+    margin-top: 20px;
+    flex-basis: 100%;
+    padding: 7px;
+    width: 35%;
+  }
+  .service-content {
+    font-size: 18px;
+  }
+  .btnServices {
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .footerContainer {
+    visibility: hidden;
+    display: none;
+  }
+  .footerContainer2 {
+    padding: 0;
+  }
+  .cs_copyright {
+    font-size: 13px;
+  }
+  .cs_menu_widget_2 li a {
+    font-size: 13px;
+  }
+}
+
+/* DIMENSION  || IPHONE XR  */
+@media screen and (max-width: 414px) {
+  body {
+    scroll-behavior: smooth;
+  }
+  .logo {
+    width: 150px;
+    height: 50px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  #navLinks {
+    display: none;
+  }
+  .Iata {
+    width: 150px;
+    height: 50px;
+  }
+  .divider-text {
+    font-size: 1.4rem;
+    font-weight: bolder;
+  }
+  .flipBox {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .flip-box {
+    padding-bottom: 3%;
+    margin-left: 11%;
+    width: 320px;
+    height: 260px;
+  }
+  .flipBox2 {
+    display: block;
+  }
+  .elementor-icon {
+    margin-top: 50px;
+  }
+  .button {
+    margin-top: 20px;
+    flex-basis: 100%;
+    padding: 7px;
+    width: 35%;
+  }
+  .service-content {
+    font-size: 18px;
+  }
+  .btnServices {
+    display: inline-block;
+    padding: 15px 14px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .footerContainer {
+    visibility: hidden;
+    display: none;
+  }
+  .footerContainer2 {
+    padding: 0;
+  }
+  .cs_copyright {
+    font-size: 13px;
+  }
+  .cs_menu_widget_2 li a {
+    font-size: 13px;
+  }
+}
+
+/* DIMENSION || PIXEL 7 */
+@media screen and (max-width: 412px) {
+  body {
+    scroll-behavior: smooth;
+  }
+  .flip-box {
+    margin-left: 11%;
+  }
+  .flip-box-back h2 {
+    margin-top: 7%;
+  }
+  .service-content {
+    font-size: 14px;
+  }
+}
+
+/* DIMENSION || IPHONE 12 PRO  */
+@media screen and (max-width: 390px) {
+  body {
+    scroll-behavior: smooth;
+  }
+  .flip-box {
+    margin-left: 9%;
+  }
+}
+
+/* DIMENSION  ||  IPHONE SE  */
+@media screen and (max-width: 375px) {
+  body {
+    scroll-behavior: smooth;
+  }
+  .logo {
+    width: 150px;
+    height: 50px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  #navLinks {
+    display: none;
+  }
+  .Iata {
+    width: 150px;
+    height: 50px;
+  }
+  .divider-text {
+    font-size: 1.4rem;
+    font-weight: bolder;
+  }
+  .flipBox {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .flipBox2 {
+    display: block;
+  }
+  .flip-box {
+    padding-bottom: 3%;
+    margin-left: 7%;
+    width: 320px;
+    height: 260px;
+  }
+  .elementor-icon {
+    margin-top: 50px;
+  }
+  .button {
+    margin-top: 20px;
+    flex-basis: 100%;
+    padding: 7px;
+    width: 35%;
+  }
+  .service-content {
+    font-size: 18px;
+  }
+  .btnServices {
+    display: inline-block;
+    padding: 15px 12px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .footerContainer {
+    visibility: hidden;
+    display: none;
+  }
+  .footerContainer2 {
+    padding: 0;
+  }
+  .cs_copyright {
+    font-size: 10px;
+  }
+  .cs_menu_widget_2 li a {
+    font-size: 11px;
+  }
+}
+
+/* DIMENSION || SAMSUNG GALAXY S8+ */
+@media screen and (max-width: 360px) {
+  body {
+    scroll-behavior: smooth;
+  }
+  .flip-box {
+    margin-left: 5.5%;
+  }
+}
+
+/* DIMENSION  ||  GALAXY Z FOLD 5  */
+@media screen and (max-width: 344px) {
+  body {
+    scroll-behavior: smooth;
+  }
+  .top-bar ul li {
+    margin-left: 6px;
+  }
+  .flip-box {
+    padding-bottom: 3%;
+    margin-left: 6%;
+    width: 300px;
+    height: 250px;
+  }
+  .flip-box-back h2 {
+    margin-top: 20px;
+  }
+  .service-content {
+    font-size: 16px;
+  }
+}
